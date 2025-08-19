@@ -1,4 +1,4 @@
-#Problem J4/S2: Babbling Brooks - 2001 (SirNooby)
+#Problem J4/S2: Babbling Brooks - 2000 (SirNooby)
 starting_streams = int(input())
 
 streams = [int(input()) for i in range(starting_streams)]
@@ -22,3 +22,4 @@ while True:
         streams.insert(stream, round(split_stream * (percentage/100)))
 
 print(" ".join(map(str, streams)))    
+
